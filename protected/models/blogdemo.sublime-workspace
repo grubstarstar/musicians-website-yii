@@ -1,0 +1,1946 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stat",
+				"status"
+			],
+			[
+				"load",
+				"loadModel"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"STAT",
+				"STATUS_APPROVED"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"functio",
+				"function_w_comments	function_w_comments"
+			],
+			[
+				"arra",
+				"array	$… = array (…)"
+			],
+			[
+				"up",
+				"updateFrequency"
+			],
+			[
+				"con",
+				"condition"
+			],
+			[
+				"array_fil",
+				"array_filter"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"auth",
+				"author_id"
+			],
+			[
+				"cre",
+				"createUrl"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"print",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/blog/protected/controllers/SiteController.php",
+			"settings":
+			{
+				"buffer_size": 2675,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/index.php",
+			"settings":
+			{
+				"buffer_size": 473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/components/UserIdentity.php",
+			"settings":
+			{
+				"buffer_size": 1097,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/models/User.php",
+			"settings":
+			{
+				"buffer_size": 2916,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/models/LoginForm.php",
+			"settings":
+			{
+				"buffer_size": 1779,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/views/site/index.php",
+			"settings":
+			{
+				"buffer_size": 1257,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/models/Post.php",
+			"settings":
+			{
+				"buffer_size": 4858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/models/Tag.php",
+			"settings":
+			{
+				"buffer_size": 3866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/models/Comment.php",
+			"settings":
+			{
+				"buffer_size": 3973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Rich/AppData/Roaming/Sublime Text 2/Packages/User/function_w_comments.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/models/Lookup.php",
+			"settings":
+			{
+				"buffer_size": 3193,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/Yii.b600af/framework/db/ar/CActiveRecord.php",
+			"settings":
+			{
+				"buffer_size": 83711,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/controllers/PostController.php",
+			"settings":
+			{
+				"buffer_size": 5367,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/components/UserMenu.php",
+			"settings":
+			{
+				"buffer_size": 295,
+				"line_ending": "Windows",
+				"name": "Yii::import('zii.widgets.CPortlet');"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/components/views/userMenu.php",
+			"settings":
+			{
+				"buffer_size": 381,
+				"line_ending": "Windows",
+				"name": "<ul>"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/components/TagCloud.php",
+			"settings":
+			{
+				"buffer_size": 546,
+				"line_ending": "Windows",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/views/post/_form.php",
+			"settings":
+			{
+				"buffer_size": 1906,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php foreach($comments as $comment): ?>\n<div class=\"comment\" id=\"c<?php echo $comment->id; ?>\">\n\n	<?php echo CHtml::link(\"#{$comment->id}\", $post->getUrl($post), array(\n		'class'=>'cid',\n		'title'=>'Permalink to this comment',\n	));\n	?>\n\n	<div class=\"author\">\n		<?php echo $comment->authorLink; ?> says:\n	</div>\n\n	<div class=\"time\">\n		<?php echo date('F j, Y \\a\\t h:i a',$comment->create_time); ?>\n	</div>\n\n	<div class=\"content\">\n		<?php echo nl2br(CHtml::encode($comment->content)); ?>\n	</div>\n\n</div><!-- comment -->\n<?php endforeach; ?>comm",
+			"file": "/C/xampp/htdocs/blog/protected/views/post/_comments.php",
+			"file_size": 561,
+			"file_write_time": 129963808245126340,
+			"settings":
+			{
+				"buffer_size": 543,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/Yii.b600af/demos/blog/protected/models/Tag.php",
+			"settings":
+			{
+				"buffer_size": 3588,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/views/post/view.php",
+			"settings":
+			{
+				"buffer_size": 1456,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/views/site/error.php",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/Yii.b600af/demos/blog/protected/views/post/view.php",
+			"settings":
+			{
+				"buffer_size": 786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/views/post/index.php",
+			"settings":
+			{
+				"buffer_size": 559,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/views/comment/_view.php",
+			"settings":
+			{
+				"buffer_size": 1239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/views/post/admin.php",
+			"settings":
+			{
+				"buffer_size": 1688,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/config/main.php",
+			"settings":
+			{
+				"buffer_size": 2308,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/config/test.php",
+			"settings":
+			{
+				"buffer_size": 331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/Yii.b600af/framework/web/CWebApplication.php",
+			"settings":
+			{
+				"buffer_size": 17403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/Yii.b600af/framework/base/CApplication.php",
+			"settings":
+			{
+				"buffer_size": 30867,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/runtime/application.log",
+			"settings":
+			{
+				"buffer_size": 45865,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/Yii.b600af/framework/vendors/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Output.CommentScriptContents.txt",
+			"settings":
+			{
+				"buffer_size": 275,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/Yii.b600af/demos/blog/protected/views/post/_comments.php",
+			"settings":
+			{
+				"buffer_size": 541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/views/comment/_form.php",
+			"settings":
+			{
+				"buffer_size": 1346,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/Yii.b600af/demos/blog/protected/models/Comment.php",
+			"settings":
+			{
+				"buffer_size": 3203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/controllers/CommentController.php",
+			"settings":
+			{
+				"buffer_size": 4509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/views/layouts/column2.php",
+			"settings":
+			{
+				"buffer_size": 488,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/Yii.b600af/demos/blog/protected/models/Post.php",
+			"settings":
+			{
+				"buffer_size": 4857,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/protected/views/comment/index.php",
+			"settings":
+			{
+				"buffer_size": 405,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Rich/AppData/Roaming/Sublime Text 2/Packages/_User/Perl.sublime-settings",
+		"/C/xampp/htdocs/blog/index-test.php",
+		"/E/Installs/BFD Updates/README.txt",
+		"/E/Installs/Steinberg Cubase 5.1.2 Final 32 & 64bit by Antony_GR/INFO.nfo",
+		"/E/Installs/Steinberg Cubase 5.1.2 Final 32 & 64bit by Antony_GR/Steinberg Cubase 5.1.2 Final 32 & 64bit by Antony_GR/INFO.nfo",
+		"/E/Installs/Guitar Rig 3 Fix/crack.nfo",
+		"/C/xampp/Yii.b600af/demos/blog/protected/views/post/view.php",
+		"/C/xampp/Yii.b600af/demos/blog/protected/models/Post.php",
+		"/C/xampp/Yii.b600af/framework/web/auth/CWebUser.php",
+		"/C/Dev/php/test.php",
+		"/C/xampp/Yii.b600af/requirements/views/index.php",
+		"/C/xampp/htdocs/blog/protected/config/main.php",
+		"/C/xampp/htdocs/blog/css/main.css",
+		"/C/xampp/Yii.b600af/framework/YiiBase.php",
+		"/C/xampp/Yii.b600af/framework/web/CWebApplication.php",
+		"/C/xampp/Yii.b600af/framework/base/CApplication.php",
+		"/C/xampp/Yii.b600af/framework/web/auth/CUserIdentity.php",
+		"/C/xampp/Yii.b600af/framework/web/auth/CBaseUserIdentity.php",
+		"/C/xampp/Yii.b600af/demos/phonebook/protected/components/UserIdentity.php",
+		"/C/xampp/htdocs/blog/protected/data/schema.mysql.sql",
+		"/C/xampp/htdocs/blog/protected/data/data/schema.sqlite.sql",
+		"/C/xampp/htdocs/blog/index.php",
+		"/C/xampp/htdocs/blog/protected/controllers/SiteController.php",
+		"/C/xampp/Yii.b600af/demos/blog/protected/data/dbgen.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp/Yii.b600af/framework/yii.php",
+		"/C/xampp/htdocs/blog/protected/models/LoginForm.php",
+		"/C/xampp/htdocs/blog/protected/models/ContactForm.php",
+		"/C/xampp/htdocs/blog/css/form.css",
+		"/C/Users/Rich/Desktop/tmp.txt",
+		"/C/xampp/htdocs/muso/protected/components/MemberIdentity.php",
+		"/C/Users/Rich/Documents/Sublime Projects/muso.sublime-project"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\blog",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"url",
+			"default",
+			"defaultC",
+			"DD",
+			"date(",
+			"\n			",
+			"Lookup::item",
+			"item[",
+			"attrib",
+			"Label",
+			"count",
+			"save",
+			"params",
+			"newComm",
+			"getUrl",
+			"before",
+			"afterSave",
+			"STATUS_PREND",
+			"STATUS_APPROVED",
+			"pern",
+			"prelo",
+			"etClientScript",
+			"setClientScript",
+			"clientScript",
+			"name",
+			"modules",
+			"());\n",
+			"before",
+			"setApplication",
+			"testdrive",
+			"song"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/blog/protected/controllers/SiteController.php",
+					"settings":
+					{
+						"buffer_size": 2675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								828,
+								828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/blog/index.php",
+					"settings":
+					{
+						"buffer_size": 473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								473,
+								473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/blog/protected/components/UserIdentity.php",
+					"settings":
+					{
+						"buffer_size": 1097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/blog/protected/models/User.php",
+					"settings":
+					{
+						"buffer_size": 2916,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2667,
+								2667
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/xampp/htdocs/blog/protected/models/LoginForm.php",
+					"settings":
+					{
+						"buffer_size": 1779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								866,
+								866
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/xampp/htdocs/blog/protected/views/site/index.php",
+					"settings":
+					{
+						"buffer_size": 1257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1257,
+								1257
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/xampp/htdocs/blog/protected/models/Post.php",
+					"settings":
+					{
+						"buffer_size": 4858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1388,
+								1388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 447.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/xampp/htdocs/blog/protected/models/Tag.php",
+					"settings":
+					{
+						"buffer_size": 3866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3081,
+								3081
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1259.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/xampp/htdocs/blog/protected/models/Comment.php",
+					"settings":
+					{
+						"buffer_size": 3973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3388,
+								3392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1469.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/Rich/AppData/Roaming/Sublime Text 2/Packages/User/function_w_comments.sublime-snippet",
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								30
+							]
+						],
+						"settings":
+						{
+							"default_extension": "sublime-snippet",
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/xampp/htdocs/blog/protected/models/Lookup.php",
+					"settings":
+					{
+						"buffer_size": 3193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3193,
+								3193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1106.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/xampp/Yii.b600af/framework/db/ar/CActiveRecord.php",
+					"settings":
+					{
+						"buffer_size": 83711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48745,
+								48745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 20552.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/xampp/htdocs/blog/protected/controllers/PostController.php",
+					"settings":
+					{
+						"buffer_size": 5367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1781,
+								1781
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/xampp/htdocs/blog/protected/components/UserMenu.php",
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Yii::import('zii.widgets.CPortlet');",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/xampp/htdocs/blog/protected/components/views/userMenu.php",
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								381,
+								381
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<ul>",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/xampp/htdocs/blog/protected/components/TagCloud.php",
+					"settings":
+					{
+						"buffer_size": 546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								546,
+								546
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/xampp/htdocs/blog/protected/views/post/_form.php",
+					"settings":
+					{
+						"buffer_size": 1906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/xampp/htdocs/blog/protected/views/post/_comments.php",
+					"settings":
+					{
+						"buffer_size": 543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/xampp/Yii.b600af/demos/blog/protected/models/Tag.php",
+					"settings":
+					{
+						"buffer_size": 3588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1299,
+								1299
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 438.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/xampp/htdocs/blog/protected/views/post/view.php",
+					"settings":
+					{
+						"buffer_size": 1456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								810,
+								810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/xampp/htdocs/blog/protected/views/site/error.php",
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/C/xampp/Yii.b600af/demos/blog/protected/views/post/view.php",
+					"settings":
+					{
+						"buffer_size": 786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/C/xampp/htdocs/blog/protected/views/post/index.php",
+					"settings":
+					{
+						"buffer_size": 559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/C/xampp/htdocs/blog/protected/views/comment/_view.php",
+					"settings":
+					{
+						"buffer_size": 1239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1073,
+								1073
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/C/xampp/htdocs/blog/protected/views/post/admin.php",
+					"settings":
+					{
+						"buffer_size": 1688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								905,
+								906
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/C/xampp/htdocs/blog/protected/config/main.php",
+					"settings":
+					{
+						"buffer_size": 2308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								422,
+								422
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/C/xampp/htdocs/blog/protected/config/test.php",
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/C/xampp/Yii.b600af/framework/web/CWebApplication.php",
+					"settings":
+					{
+						"buffer_size": 17403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7735,
+								7735
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2989.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/C/xampp/Yii.b600af/framework/base/CApplication.php",
+					"settings":
+					{
+						"buffer_size": 30867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4843,
+								4843
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 784.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/C/xampp/htdocs/blog/protected/runtime/application.log",
+					"settings":
+					{
+						"buffer_size": 45865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4215.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "/C/xampp/Yii.b600af/framework/vendors/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Output.CommentScriptContents.txt",
+					"settings":
+					{
+						"buffer_size": 275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "/C/xampp/Yii.b600af/demos/blog/protected/views/post/_comments.php",
+					"settings":
+					{
+						"buffer_size": 541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								541,
+								541
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "/C/xampp/htdocs/blog/protected/views/comment/_form.php",
+					"settings":
+					{
+						"buffer_size": 1346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								563,
+								563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "/C/xampp/Yii.b600af/demos/blog/protected/models/Comment.php",
+					"settings":
+					{
+						"buffer_size": 3203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2502,
+								2507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1156.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "/C/xampp/htdocs/blog/protected/controllers/CommentController.php",
+					"settings":
+					{
+						"buffer_size": 4509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1585,
+								1585
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 554.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "/C/xampp/htdocs/blog/protected/views/layouts/column2.php",
+					"settings":
+					{
+						"buffer_size": 488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								393
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "/C/xampp/Yii.b600af/demos/blog/protected/models/Post.php",
+					"settings":
+					{
+						"buffer_size": 4857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1861,
+								1861
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 478.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "/C/xampp/htdocs/blog/protected/views/comment/index.php",
+					"settings":
+					{
+						"buffer_size": 405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pos",
+				"blog/protected/models/Post.php"
+			],
+			[
+				"comm",
+				"blog/protected/models/Comment.php"
+			],
+			[
+				"main",
+				"blog/protected/config/main.php"
+			],
+			[
+				"tag",
+				"Yii.b600af/demos/blog/protected/models/Tag.php"
+			],
+			[
+				"tagc",
+				"blog/protected/components/TagCloud.php"
+			],
+			[
+				"column2",
+				"blog/protected/views/layouts/column2.php"
+			],
+			[
+				"blogtag",
+				"blog/protected/models/Tag.php"
+			],
+			[
+				"",
+				"blog/protected/components/TagCloud.php"
+			],
+			[
+				"viewusermen",
+				"blog/protected/components/views/userMenu.php"
+			],
+			[
+				"_view",
+				"blog/protected/views/comment/_view.php"
+			],
+			[
+				"comminde",
+				"blog/protected/views/comment/index.php"
+			],
+			[
+				"_comm",
+				"blog/protected/views/post/_comments.php"
+			],
+			[
+				"postview",
+				"blog/protected/views/post/view.php"
+			],
+			[
+				"post",
+				"blog/protected/models/Post.php"
+			],
+			[
+				"demoblogpost",
+				"Yii.b600af/demos/blog/protected/models/Post.php"
+			],
+			[
+				"postcon",
+				"blog/protected/controllers/PostController.php"
+			],
+			[
+				"comment_v",
+				"blog/protected/views/comment/_view.php"
+			],
+			[
+				"look",
+				"blog/protected/models/Lookup.php"
+			],
+			[
+				"commcontr",
+				"blog/protected/controllers/CommentController.php"
+			],
+			[
+				"commen",
+				"blog/protected/models/Comment.php"
+			],
+			[
+				"demoblogcomm",
+				"Yii.b600af/demos/blog/protected/models/Comment.php"
+			],
+			[
+				"com",
+				"blog/protected/models/Comment.php"
+			],
+			[
+				"demoblogcomment",
+				"Yii.b600af/demos/blog/protected/models/Comment.php"
+			],
+			[
+				"comment",
+				"blog/protected/models/Comment.php"
+			],
+			[
+				"commentcontr",
+				"blog/protected/controllers/CommentController.php"
+			],
+			[
+				"commentcon",
+				"blog/protected/controllers/CommentController.php"
+			],
+			[
+				"comme",
+				"blog/protected/models/Comment.php"
+			],
+			[
+				"_comment",
+				"blog/protected/views/post/_comments.php"
+			],
+			[
+				"comm_form",
+				"blog/protected/views/comment/_form.php"
+			],
+			[
+				"_com",
+				"blog/protected/views/post/_comments.php"
+			],
+			[
+				"_comme",
+				"blog/protected/views/post/_comments.php"
+			],
+			[
+				"comm_f",
+				"blog/protected/views/comment/_form.php"
+			],
+			[
+				"comment_form",
+				"blog/protected/views/comment/_form.php"
+			],
+			[
+				"postco",
+				"blog/protected/controllers/PostController.php"
+			],
+			[
+				"postc",
+				"blog/protected/controllers/PostController.php"
+			],
+			[
+				"ostcon",
+				"blog/protected/controllers/PostController.php"
+			],
+			[
+				"yiidemosblogproteviewposcom",
+				"Yii.b600af/demos/blog/protected/views/post/_comments.php"
+			],
+			[
+				"potview",
+				"blog/protected/views/post/view.php"
+			],
+			[
+				"comment.",
+				"blog/protected/models/Comment.php"
+			],
+			[
+				"comments",
+				"Yii.b600af/framework/vendors/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Output.CommentScriptContents.txt"
+			],
+			[
+				"cappl",
+				"Yii.b600af/framework/base/CApplication.php"
+			],
+			[
+				"cwebapp",
+				"Yii.b600af/framework/web/CWebApplication.php"
+			],
+			[
+				"test.p",
+				"blog/protected/config/test.php"
+			],
+			[
+				"index",
+				"blog/index.php"
+			],
+			[
+				"index-",
+				"blog/index-test.php"
+			],
+			[
+				"postadmin",
+				"blog/protected/views/post/admin.php"
+			],
+			[
+				"viewpostindex",
+				"blog/protected/views/post/index.php"
+			],
+			[
+				"viewpostinde",
+				"blog/protected/views/post/index.php"
+			],
+			[
+				"postindex",
+				"blog/protected/views/post/index.php"
+			],
+			[
+				"demobloproviewpostvi",
+				"Yii.b600af/demos/blog/protected/views/post/view.php"
+			],
+			[
+				"demoblogproviewposvi",
+				"Yii.b600af/demos/blog/protected/views/post/view.php"
+			],
+			[
+				"blogproteviewposview",
+				"blog/protected/views/post/view.php"
+			],
+			[
+				"protviewsiteer",
+				"blog/protected/views/site/error.php"
+			],
+			[
+				"postcp",
+				"blog/protected/controllers/PostController.php"
+			],
+			[
+				"tag.",
+				"blog/protected/models/Tag.php"
+			],
+			[
+				"poscon",
+				"blog/protected/controllers/PostController.php"
+			],
+			[
+				"cact",
+				"Yii.b600af/framework/db/ar/CActiveRecord.php"
+			],
+			[
+				"cactive",
+				"Yii.b600af/framework/db/ar/CActiveRecord.php"
+			],
+			[
+				"demoblogtag",
+				"Yii.b600af/demos/blog/protected/models/Tag.php"
+			],
+			[
+				"demoblogpos",
+				"Yii.b600af/demos/blog/protected/models/Post.php"
+			],
+			[
+				"cacrec",
+				"Yii.b600af/framework/db/ar/CActiveRecord.php"
+			],
+			[
+				"lookup",
+				"blog/protected/models/Lookup.php"
+			],
+			[
+				"post_form",
+				"blog/protected/views/post/_form.php"
+			],
+			[
+				"cwebuser",
+				"Yii.b600af/framework/web/auth/CWebUser.php"
+			],
+			[
+				"viewssiteindex",
+				"blog/protected/views/site/index.php"
+			],
+			[
+				"loo",
+				"blog/protected/models/Lookup.php"
+			],
+			[
+				"viewsinde",
+				"blog/protected/views/site/index.php"
+			],
+			[
+				"viewsiteinde",
+				"blog/protected/views/site/index.php"
+			],
+			[
+				"blogs",
+				"blog/protected/controllers/SiteController.php"
+			],
+			[
+				"viewinde",
+				"Yii.b600af/requirements/views/index.php"
+			],
+			[
+				"site",
+				"blog/protected/controllers/SiteController.php"
+			],
+			[
+				"log",
+				"blog/protected/models/LoginForm.php"
+			],
+			[
+				"cuseridentity",
+				"Yii.b600af/framework/web/auth/CUserIdentity.php"
+			],
+			[
+				"user",
+				"blog/protected/models/User.php"
+			],
+			[
+				"cbasuser",
+				"Yii.b600af/framework/web/auth/CBaseUserIdentity.php"
+			],
+			[
+				"cuseriden",
+				"Yii.b600af/framework/web/auth/CUserIdentity.php"
+			],
+			[
+				"useriden",
+				"blog/protected/components/UserIdentity.php"
+			],
+			[
+				"appcompuser",
+				"Yii.b600af/demos/phonebook/protected/components/UserIdentity.php"
+			],
+			[
+				"webapp",
+				"Yii.b600af/framework/web/CWebApplication.php"
+			],
+			[
+				"yiibas",
+				"Yii.b600af/framework/YiiBase.php"
+			],
+			[
+				"proconfmain",
+				"blog/protected/config/main.php"
+			],
+			[
+				"inde",
+				"blog/index.php"
+			],
+			[
+				"yiibase",
+				"Yii.b600af/framework/YiiBase.php"
+			],
+			[
+				"yii.php",
+				"Yii.b600af/framework/yii.php"
+			],
+			[
+				"mgroupbase",
+				"muso/protected/models/MGroupBase.php"
+			],
+			[
+				"band",
+				"muso/protected/models/Band.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Rich/Documents/My Dropbox/Sublime Projects/Rich-Laptop/muso.sublime-project"
+			],
+			[
+				"muso",
+				"/C/Users/Rich/Documents/My Dropbox/Sublime Projects/Rich-Laptop/muso.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true
+}

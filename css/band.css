@@ -1,0 +1,47 @@
+.band_summary {
+	padding: 10px;
+	border: thin #DDDDDD solid;
+}
+
+.band_summary h1 {
+	font-family: 'Orienta', sans-serif;
+	font-size: 1.4em;
+	font-weight: normal;
+	padding: 5px 0;
+	line-height: 1em;
+}
+
+.band_summary h3 {
+	font-family: 'Orienta', sans-serif;
+	font-style: italic;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.band_summary a {
+	font-size: 0.85em;
+}
+
+.band_summary p {
+	font-size: 0.85em;
+}
+
+.band_summary .image {
+	width: 120px;
+	float: left;
+}
+
+.band_summary .content {
+	width: 400px;
+	margin: 0 0 0 20px;
+	float: left;
+}
+
+.band_summary .members {
+	float: right;
+}
+
+.band_summary .clear
+{
+	clear:both;
+}

@@ -1,0 +1,9 @@
+
+201		Data saved.
+		reponse text is the JSON of the model saved
+
+400		Form failed validation.
+		reponse is the validation errors $model->errors
+
+413		File upload too large.
+		When a file upload fails on the basis of max size breech

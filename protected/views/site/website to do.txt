@@ -1,0 +1,7 @@
+1) make full registration -> login -> roles -> access
+
+2) if guest, every page diverts to home page with options:
+	- create / join a band
+		- anyone can create a band as they become a member
+		- anyone can request to join a band when they become a member , this will tell the band admins, who can add them, adn make them an admin
+			... add a column to the members2artistGroup to flag whether they are an admin
